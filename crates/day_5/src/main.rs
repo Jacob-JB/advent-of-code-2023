@@ -234,8 +234,8 @@ fn main() {
     .map(|map| {
         let mut parts = map.split(":\r\n");
 
-        let name = parts.next().unwrap();
-        // dbg!(name);
+        let _name = parts.next().unwrap();
+        // dbg!(_name);
         parts.next().unwrap().parse().unwrap()
     })
     .collect();
